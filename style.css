@@ -3,18 +3,16 @@ body{
     height: 100vh;
     font-family: 'Nunito Sans', sans-serif;
 }
-
+.header .navbar{
+display: flex;
+}
 .header .navbar .link-container {
-        margin-left:auto;
-        margin-right:auto;
         width: fit-content;
 }
 
 .header .navbar .link-container .link{
     display: inline-block;
     margin-right: 56px;
-    padding-top: 30px;
-    margin-bottom: 20px;
 }
 
 .content {
