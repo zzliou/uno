@@ -1,0 +1,24 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header .navbar .link-container {
+        margin-left:auto;
+        margin-right:auto;
+        width: fit-content;
+}
+
+.header .navbar .link-container .link{
+    display: inline-block;
+    margin-right: 56px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    background-color: darkgreen;
+}
