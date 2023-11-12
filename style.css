@@ -5,9 +5,11 @@ body{
 }
 .header .navbar{
 display: flex;
+align-items: center;
 }
 .header .navbar .link-container {
         width: fit-content;
+        margin-left: auto;
 }
 
 .header .navbar .link-container .link{
