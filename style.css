@@ -22,3 +22,33 @@ align-items: center;
     height: 100%;
     background-color: darkgreen;
 }
+.oder-button-container {
+ position: fixed;
+ right: 100px;
+ bottom: 50px;
+ background-color: white;
+ padding: 20px;
+ border-radius: 50px;
+ width: 50px;
+ height: 50px;
+ border: solid 9px #eed7b0;
+ overflow: hidden;
+}
+
+.oder-button-container.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.oder-button-container .oder-text-image {
+    position: absolute;
+    width: 18px;
+}
+
+.oder-button-container .cute-image {
+    position: absolute;
+    width: 60px;
+    right: -20px;
+    bottom: -10px;
+}
