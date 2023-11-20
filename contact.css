@@ -1,0 +1,57 @@
+.content {
+    margin: 400px 100px 100px 100px;
+}
+
+.user-info .input-item {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.user-info .input-item .key {
+    margin-left: 10px;
+    width: 100px;
+    color: #005850;
+    font-weight: bolder;
+}
+
+.user-info .input-item .value {
+}
+
+.user-info .input-item .icon-image {
+    height: 12px;
+}
+
+.user-info .input-item .icon-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.user-info .input-item input {
+    border: none;
+    border-bottom: 1px solid #005850;
+    width: 500px;
+    font-size: 18px;
+    color: #005850;
+    font-family: monospace;
+}
+
+.user-info .input-item input:focus-visible {
+    border: none;
+    border-bottom: 1px solid #005850;
+    outline: none;
+}
+
+.input-item .activity-select {
+    padding: 5px 417px 5px 7px;
+    border-radius: 20px;
+}
+
+.input-item textarea {
+    resize: none;
+    width: 500px;
+    height: 150px;
+    border-radius: 12px;
+  } 
+
+
