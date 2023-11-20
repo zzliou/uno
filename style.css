@@ -1,54 +1,142 @@
 body{
-    width: 100%;
-    height: 100vh;
-    font-family: 'Nunito Sans', sans-serif;
+    width:100%;
+    height:100vh;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
-.header .navbar{
-display: flex;
-align-items: center;
-}
-.header .navbar .link-container {
-        width: fit-content;
-        margin-left: auto;
+.header .navbar {
+    display: flex;
+    align-items: center;
 }
 
-.header .navbar .link-container .link{
+.header .navbar .link-container {
+    margin-left: auto;
+    width: fit-content;
+}
+.header .navbar .menu-container {
+    margin-right: 60px;
+    width: fit-content;
+}
+.header .navbar .link-container .link {
     display: inline-block;
     margin-right: 56px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    /* margin-bottom: 0px; */
 }
 
 .content {
     width: 100%;
     height: 100%;
-    background-color: darkgreen;
-}
-.oder-button-container {
- position: fixed;
- right: 100px;
- bottom: 50px;
- background-color: white;
- padding: 20px;
- border-radius: 50px;
- width: 50px;
- height: 50px;
- border: solid 9px #eed7b0;
- overflow: hidden;
+    background-color: white;
 }
 
-.oder-button-container.wrapper {
-    position: relative;
+.content .map-information {
+    display: flex;
+    width: 202px;
+    height: 100px;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top: 300px;
+}
+
+.content .map-information .container {
+    width: 400px;
+
+} 
+
+.content .map-information .container .card-header {
+    display: flex;
+    align-items: center;
+}
+
+.content .map-information .container .card-header .google-link {
+    margin-left: auto;
+}
+
+.content .map-information .container .divider {
+    border: solid 1px black;
     width: 100%;
-    height: 100%;
 }
 
-.oder-button-container .oder-text-image {
-    position: absolute;
-    width: 18px;
+.content .map-information .container .address-container {
+    display: flex;
+    margin: 16px 0;
 }
 
-.oder-button-container .cute-image {
+.content .map-information .container .telephone-container {
+    display: flex;
+}
+
+.content .map-information .container img {
+    margin-right: 5px;
+}
+
+.content .map-information .store-name {
+    /* display: flex; */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.order-button-container {
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border: solid #eed7b0;
+}
+
+.order-button-container .wrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.order-button-container .wrapper .oder-cute-image {
     position: absolute;
     width: 60px;
-    right: -20px;
-    bottom: -10px;
+    right: 8px;
+    bottom: 0px;
+}
+
+.order-button-container .wrapper .oder-text-image {
+    position: absolute;
+    width: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color:#005850;
+}
+.footer .footer-unocha {
+    margin: 50px 50px 50px 50px;
+}
+
+.footer .block {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 70px 50px 70px;
+    margin-left: auto;
+    align-items: flex-end;
+}
+
+.footer .block .footer-logo-cn {
+    width: fit-content;
+}
+
+.footer .block .footer-logo-en {
+    width: fit-content;
+    margin-top: 50px;
 }
