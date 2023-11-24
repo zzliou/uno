@@ -34,43 +34,43 @@ body{
 }
 
 .content .map-information {
+    width: 900px;
+    justify-content: space-between;
     display: flex;
-    width: 202px;
-    height: 100px;
-    flex-direction: column;
+    flex-wrap: wrap;
     margin-left: 300px;
     margin-top: 300px;
 }
 
-.content .map-information .container {
+.content .map-information .card {
     width: 400px;
-
+    margin-top: 50px;
 } 
 
-.content .map-information .container .card-header {
+.content .map-information .card .card-header {
     display: flex;
     align-items: center;
 }
 
-.content .map-information .container .card-header .google-link {
+.content .map-information .card .card-header .google-link {
     margin-left: auto;
 }
 
-.content .map-information .container .divider {
+.content .map-information .card .divider {
     border: solid 1px black;
     width: 100%;
 }
 
-.content .map-information .container .address-container {
+.content .map-information .card .address-container {
     display: flex;
     margin: 16px 0;
 }
 
-.content .map-information .container .telephone-container {
+.content .map-information .card .telephone-container {
     display: flex;
 }
 
-.content .map-information .container img {
+.content .map-information .card img {
     margin-right: 5px;
 }
 
